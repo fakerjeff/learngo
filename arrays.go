@@ -33,7 +33,7 @@ func loopThroughArrays(arr [4]int) {
 		// 同时遍历 index和value
 		fmt.Printf("%d:%d\n", i, v)
 	}
-	// 省略索引
+	// 使用_省略索引
 	for _, v := range arr {
 		fmt.Println(v)
 	}
